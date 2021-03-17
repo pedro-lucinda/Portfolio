@@ -1,0 +1,21 @@
+.navContainer {
+	max-width: 80rem;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	margin: auto;
+	padding: 4rem 2rem;
+}
+
+.navContainer p {
+	font-style: normal;
+	font-weight: 700;
+	font-size: 2.4rem;
+	line-height: 3.1rem;
+	transition: color 0.2s;
+}
+
+.navContainer p:hover {
+	cursor: pointer;
+	color: var(--blue);
+}

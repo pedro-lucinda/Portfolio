@@ -1,0 +1,50 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+:root {
+	--blue: #03DDEB;
+	--text: #FFFFFF;
+	--off-text: #E5E5E5;
+	--background: #242424;
+}
+
+html {
+	font-size: 10px;
+}
+
+body {
+	background: var(--background);
+	color: var(--text);
+	-webkit-font-smoothing: antialiased;
+}
+
+body, input, textarea, button {
+	font-family: 'IBM Plex Mono', monospace;
+	font-weight: 400;
+}
+
+.big-title {
+	font-weight: 500;
+	font-size: 14.4rem;
+	line-height: 18.7rem;
+}
+
+.big-title_secondary {
+	font-weight: normal;
+	font-size: 4rem;
+	line-height: 5.19rem;
+	color: #03DDEB;
+}
+
+.title {
+	font-weight: bold;
+	font-size: 6.4rem;
+	line-height: 8.3rem;
+}
+
+button {
+	cursor: pointer;
+}
